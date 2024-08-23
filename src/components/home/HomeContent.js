@@ -8,16 +8,31 @@ const BUTTONS = [
 ]
 
 const RequestInformation = [
-    'Regerral request no', 'Workflow status', 'Referral status', 'SPU aproval reason', 'Created date'
+    { title: 'Regerral request no', placeholder: '2024-8-748402/1' },
+    { title: 'Workflow status', placeholder: '' },
+    { title: 'Referral status', placeholder: 'Saved' },
+    { title: 'SPU aproval reason', placeholder: '' },
+    { title: 'Created date', placeholder: '18/08/2024 by Avicenna' },
 ];
 
 const FacilityInformation = [
-    'Referring facility', 'Referral type', 'Service delivery type',
-    'Referring doctor', 'visit date', 'Meical departement', 'Medical category'
+    { title: 'Referring facility', placeholder: 'Doura Government hospital' },
+    { title: 'Referral type', placeholder: 'Non-Emergency' },
+    { title: 'Service delivery type', placeholder: 'Clinc visit' },
+    { title: 'Referring doctor', placeholder: 'حافظ محمود المسالمة' },
+    { title: 'visit date', placeholder: '14/08/2024 7:10 AM' },
+    { title: 'Meical departement', placeholder: 'Surgery' },
+    { title: 'Medical category', placeholder: 'Gastroenterology - Genreal surgery' },
+
 ];
 
 const PatientInformation = [
-    'Patient', 'Document No.', 'Patient file No.', 'Gender', 'Date of birth', 'Age'
+    { title: 'Patient', placeholder: 'سهير محمد أحمد عمايرة' },
+    { title: 'Document No.', placeholder: '080762594' },
+    { title: 'Patient file No.', placeholder: '6259-11-4-2020' },
+    { title: 'Gender', placeholder: 'Female' },
+    { title: 'Date of birth', placeholder: '15/09/1970' },
+    { title: 'Age', placeholder: 'Years: 53 months: 11 days:3' },
 ];
 
 export const HomeContent = () => {
@@ -25,15 +40,15 @@ export const HomeContent = () => {
 
     return <div className={classes.main}>
         <div>
-            <span style={{ color: 'brown', fontWeight: 'bold' }}>Referral Request</span> &gt; 2024-08-23
+            <span style={{ color: 'brown', fontWeight: 'bold' }}>Referral Request</span> &gt; 2024-8-748402/1
         </div>
         <div className={classes.buttonsContainer}>
             {BUTTONS.map((item) => <Button title={item} />)}
         </div>
 
-        <Section data={RequestInformation} />
-        <Section data={FacilityInformation} />
-        <Section data={PatientInformation} />
+        <Section title='REQUEST INFORMATION' data={RequestInformation} />
+        <Section title='FACILITY INFORMATION' data={FacilityInformation} />
+        <Section title='PATIENT INFORMATION' data={PatientInformation} />
 
     </div>;
 }
