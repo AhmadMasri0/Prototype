@@ -1,0 +1,11 @@
+.main{
+    margin: 10px;
+}
+
+
+.buttonsContainer{
+
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
