@@ -14,10 +14,10 @@ const router = createBrowserRouter([
     path: "/details",
     element: <Details />,
   },
-]);
+], {basename: '/Prototype'});
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <RouterProvider  router={router} />;
 }
 
 export default App;
