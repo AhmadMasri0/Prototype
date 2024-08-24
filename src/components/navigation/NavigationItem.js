@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import classes from './Navigation.module.css';
 
-export const NavigationItem = ({ title, path }) => {
+export const NavigationItem = ({ title, path, icon }) => {
 
 
     const disableButton = (e) => {
@@ -11,5 +11,6 @@ export const NavigationItem = ({ title, path }) => {
     return <NavLink onClick={disableButton} to={path}
         className={({ isActive }) => isActive ? `${classes.item}  ${classes.active}` : classes.item}>
         {title}
+        {icon}
     </NavLink>;
 }

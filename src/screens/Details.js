@@ -1,7 +1,11 @@
+import { DetailsContent } from "../components/DetailsContent/DetailsContent";
+import { Header } from "../components/header/Header";
+
 export const Details = () => {
 
 
-    return <div>
-        Details
-    </div>;
+    return <>
+        <Header />
+        <DetailsContent />
+    </>;
 }

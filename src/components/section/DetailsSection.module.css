@@ -1,0 +1,39 @@
+.container {
+
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.title {
+    font-size: 16px;
+    width: 100%;
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+
+.detailsInput {
+    align-items: end;
+    min-width: 22%;
+}
+
+.inputStyles{
+
+    text-align: end;
+}
+
+.checkbox{
+
+    flex-direction: row;
+    min-width: 22%;
+    align-items: center;
+    justify-content: end;
+}

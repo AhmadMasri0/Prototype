@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(251, 251, 251);
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title {
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-end;
+
+}

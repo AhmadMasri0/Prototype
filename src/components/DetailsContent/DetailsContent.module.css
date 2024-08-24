@@ -1,0 +1,20 @@
+.container {
+
+
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+}
+
+.buttonsContainer, .leftButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whiteButton{
+
+    background-color: white!important;
+    color: black!important;
+    border: 1px solid black;
+}

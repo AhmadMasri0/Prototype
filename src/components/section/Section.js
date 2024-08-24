@@ -11,8 +11,6 @@ export const Section = ({ title, data }) => {
         <div className={classes.content}>
             {data.map((data) => <Input title={data.title} placeholder={data.placeholder} />)}
 
-
-
         </div>
 
     </div>;
