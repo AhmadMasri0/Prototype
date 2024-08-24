@@ -8,31 +8,31 @@ const BUTTONS = [
 ]
 
 const RequestInformation = [
-    { title: 'Regerral request no', placeholder: '2024-8-748402/1' },
-    { title: 'Workflow status', placeholder: '' },
-    { title: 'Referral status', placeholder: 'Saved' },
-    { title: 'SPU aproval reason', placeholder: '' },
-    { title: 'Created date', placeholder: '18/08/2024 by Avicenna' },
+    { title: 'Regerral request no', defaultValue: '2024-8-748402/1' },
+    { title: 'Workflow status', defaultValue: '' },
+    { title: 'Referral status', defaultValue: 'Saved' },
+    { title: 'SPU aproval reason', defaultValue: '' },
+    { title: 'Created date', defaultValue: '18/08/2024 by Avicenna' },
 ];
 
 const FacilityInformation = [
-    { title: 'Referring facility', placeholder: 'Doura Government hospital' },
-    { title: 'Referral type', placeholder: 'Non-Emergency' },
-    { title: 'Service delivery type', placeholder: 'Clinc visit' },
-    { title: 'Referring doctor', placeholder: 'حافظ محمود المسالمة' },
-    { title: 'visit date', placeholder: '14/08/2024 7:10 AM' },
-    { title: 'Meical departement', placeholder: 'Surgery' },
-    { title: 'Medical category', placeholder: 'Gastroenterology - Genreal surgery' },
+    { title: 'Referring facility', defaultValue: 'Doura Government hospital' },
+    { title: 'Referral type', defaultValue: 'Non-Emergency' },
+    { title: 'Service delivery type', defaultValue: 'Clinc visit' },
+    { title: 'Referring doctor', defaultValue: 'حافظ محمود المسالمة' },
+    { title: 'visit date', defaultValue: '14/08/2024 7:10 AM' },
+    { title: 'Meical departement', defaultValue: 'Surgery' },
+    { title: 'Medical category', defaultValue: 'Gastroenterology - Genreal surgery' },
 
 ];
 
 const PatientInformation = [
-    { title: 'Patient', placeholder: 'سهير محمد أحمد عمايرة' },
-    { title: 'Document No.', placeholder: '080762594' },
-    { title: 'Patient file No.', placeholder: '6259-11-4-2020' },
-    { title: 'Gender', placeholder: 'Female' },
-    { title: 'Date of birth', placeholder: '15/09/1970' },
-    { title: 'Age', placeholder: 'Years: 53 months: 11 days:3' },
+    { title: 'Patient', defaultValue: 'سهير محمد أحمد عمايرة' },
+    { title: 'Document No.', defaultValue: '080762594' },
+    { title: 'Patient file No.', defaultValue: '6259-11-4-2020' },
+    { title: 'Gender', defaultValue: 'Female' },
+    { title: 'Date of birth', defaultValue: '15/09/1970' },
+    { title: 'Age', defaultValue: 'Years: 53 months: 11 days:3' },
 ];
 
 export const HomeContent = () => {

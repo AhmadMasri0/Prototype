@@ -9,7 +9,7 @@ export const Section = ({ title, data }) => {
             {title}
         </h5>
         <div className={classes.content}>
-            {data.map((data) => <Input title={data.title} placeholder={data.placeholder} />)}
+            {data.map((data) => <Input title={data.title} defaultValue={data.defaultValue} />)}
 
         </div>
 
